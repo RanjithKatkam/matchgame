@@ -15,8 +15,8 @@ class Navbar extends Component {
             alt="website logo"
           />
         </div>
-        <ul>
-          <li className="score-container">
+        <ul className="score-container">
+          <li>
             <p className="score-para">
               Score: <span>{score}</span>
             </p>

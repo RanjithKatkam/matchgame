@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 35px;
+  padding: 6px 35px;
 }
 
 .score-container {
@@ -11,6 +11,12 @@
   align-items: center;
   justify-content: space-evenly;
   width: 15%;
+  list-style-type: none;
+}
+
+.score-container li {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
