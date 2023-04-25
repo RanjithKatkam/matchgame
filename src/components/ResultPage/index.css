@@ -1,0 +1,53 @@
+.result {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  background-size: cover;
+  height: 650px;
+  width: 530px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.trophy {
+  margin-top: 100px;
+  width: 60%;
+}
+
+.result-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #cf60c8;
+  font-family: 'Lucida Sans';
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+}
+
+.result-button img {
+  padding-right: 10px;
+}
+
+.result-heading {
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  margin: 5px;
+}
+
+.result-score {
+  color: #fff;
+  font-family: 'Lucida Sans';
+  font-size: 40px;
+  margin: 5px 0px 15px 0px;
+}
